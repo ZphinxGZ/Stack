@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        body{
+            background-color: rgb(199, 199, 199);
+        }
+        .titt{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            height: 150px;
+            width: 100%;
+            color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+        }
+        .titlee{
+            height: 100%;
+            width: 50%;
+            background: #000;
+            font-size: 24px;
+            border-radius: 10px;
+            border: 4px red solid;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+        label{
+            font-size: 24px;
+            color: red;
+            font-weight: bold;
+        }
+        input{
+            font-size: 20px;
+            outline: none;
+            border-radius: 10px;
+            border: 2px red solid;
+            color: rgb(140, 0, 255);
+        }
+        button{
+            font-size: 18px;
+            color: red;
+            background: #000;
+            padding: 3px;
+            margin-left: 12px;
+            border-radius: 5px;
+            border: 2px red solid;
+            cursor: pointer;
+            transition: 0.3s;
+            font-weight: bold;
+        }
+        button:hover{
+            transform: scale(1.05);
+            color: white;
+            font-weight: bold;
+        }
+        .pp{
+            font-size: 20px;
+            color: red;
+            font-weight: bold;
+        }
+        span{
+            color: black;
+            margin-left: 5px;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <div class="titt">
+        <div class="titlee">
+            <h1>Stack Operations</h1>
+        </div>
+    </div>
+    
+    
+    <label for="dataInput">Enter Data :</label>
+    <input type="text" id="dataInput" placeholder="Enter data">
+    
+    <button onclick="displayData()">Sum</button>
+    
+    <div id="output"></div>
+
+    <script src="stackkkk.js"></script>
+</body>
+</html>
